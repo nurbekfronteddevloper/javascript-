@@ -15,3 +15,6 @@ console.log(filteredValues); // 7;
 const mapValues = number => 'Son: ' + number;
 const mappedValues = result.map(mapValues);
 console.log(mappedValues); // ['Son: 1', 'Son: 4', ...]
+const sortValues = (number1, number2) => number1 - number2;
+result.sort();
+console.log(result); // [1, 2, 3, 4, 7];
